@@ -9,7 +9,7 @@ Step 3: Run app and Explore Swagger UI Docs
 # Step 1: Setup Pydantic Model (Schema Validation)
 from pydantic import BaseModel
 from typing import List
-from ai_agent import get_response_from_ai_agent
+from old.ai_agent import get_response_from_ai_agent
 
 class RequestState(BaseModel):
     model_name: str
